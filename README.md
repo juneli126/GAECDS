@@ -10,10 +10,10 @@ Code:<br>
 * `GAECDS_param.py`: Hyperparameter adjustment<br>
 * `GAECDS_nocell_val.py`: Employ the model to predict novel drug combinations<br>
 <br>
-## **Data**:<br>
-* `data_5693`: the data for train and test<br>
-`data_1390`: the data foe new drug combinations prediction<br>
-`machine_methods`: the data for machine learning methods<br>
+Data:<br>
+data_5693: the data for train and test<br>
+data_1390: the data foe new drug combinations prediction<br>
+machine_methods: the data for machine learning methods<br>
 <br>
-## Results:<br>
+Results:<br>
 The results of model training and the results of comparison<br>
