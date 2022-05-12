@@ -1,0 +1,15 @@
+f1_scores:0.9890909090909091
+precision_scores:0.9855072463768116
+recall_scores:0.9927007299270073
+f1_scores:1.0
+precision_scores:1.0
+recall_scores:1.0
+f1_scores:0.9962546816479401
+precision_scores:0.9925373134328358
+recall_scores:1.0
+f1_scores:0.9805194805194806
+precision_scores:1.0
+recall_scores:0.9617834394904459
+f1_scores:0.9928571428571429
+precision_scores:0.9858156028368794
+recall_scores:1.0
