@@ -12,7 +12,7 @@ Code:<br>
 <br>
 Data:<br>
 -----------
-`data_5693`: the data for train and test<br>
+* `data_5693`: the data for train and test<br>
 `data_1390`: the data foe new drug combinations prediction<br>
 `machine_methods`: the data for machine learning methods<br>
 <br>
