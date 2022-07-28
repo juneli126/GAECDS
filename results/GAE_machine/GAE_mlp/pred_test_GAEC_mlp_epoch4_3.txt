@@ -1,0 +1,1 @@
+tensor([0.2065], grad_fn=<SelectBackward>)tensor([0])

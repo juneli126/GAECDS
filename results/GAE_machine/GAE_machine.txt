@@ -1,0 +1,195 @@
+C:\Users\juneli\Anaconda\envs\pytorch\python.exe "D:/1.Deep learning/GNN for drug synergy/GAE_machine.py"
+Using backend: pytorch
+D:/1.Deep learning/GNN for drug synergy/GAE_machine.py:77: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  pos_weight = torch.tensor((adj.shape[0] * adj.shape[0] - adj.sum()) / adj.sum())
+D:/1.Deep learning/GNN for drug synergy/GAE_machine.py:80: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  adj = torch.tensor(adj)
+cell_feature:  torch.Size([5693, 954])
+node_feature:  torch.Size([197, 300])
+tensor([0.9028, 0.9305, 0.9655,  ..., 0.9853, 0.9980, 1.0000],
+       grad_fn=<SigmoidBackward>)
+loss: 0.5074496865272522 accuracy: 0.9533097992733645
+C:\Users\juneli\Anaconda\envs\pytorch\lib\site-packages\xgboost\sklearn.py:1224: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+C:\Users\juneli\Anaconda\envs\pytorch\lib\site-packages\xgboost\sklearn.py:1224: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+C:\Users\juneli\Anaconda\envs\pytorch\lib\site-packages\xgboost\sklearn.py:1224: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+C:\Users\juneli\Anaconda\envs\pytorch\lib\site-packages\xgboost\sklearn.py:1224: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+C:\Users\juneli\Anaconda\envs\pytorch\lib\site-packages\xgboost\sklearn.py:1224: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+accuracy:  0.7691901291639599 [0.7673397717295873, 0.7708516242317822, 0.7699736611062336, 0.773286467486819, 0.7644991212653779]
+roc_auc : 0.7373034352145138 [0.7686023159424005, 0.7242639832500107, 0.7456821774986113, 0.711510902160754, 0.7364577972207926]
+pr_auc:  0.3805871783437819 [0.4447835853533557, 0.48796260334017644, 0.46546931435862077, 0.5118842927926149, 0.3805871783437819]
+precision_scores:  0.5857950157950158 [0.6, 0.6590909090909091, 0.5945945945945946, 0.6428571428571429, 0.43243243243243246]
+recall scores:  0.08331576319147756 [0.06691449814126393, 0.10780669144981413, 0.08178438661710037, 0.10037174721189591, 0.05970149253731343]
+f1_scores:  0.14560943502883925 [0.12040133779264213, 0.1853035143769968, 0.1437908496732026, 0.17363344051446947, 0.10491803278688523]
+accuracy:  0.7976424607038208 [0.8059701492537313, 0.7980684811237928, 0.810359964881475, 0.7829525483304042, 0.7908611599297012]
+roc_auc : 0.8076696492439224 [0.8443810622569756, 0.7888967226423963, 0.7955219416314147, 0.7864678025846912, 0.8230807171041346]
+pr_auc:  0.540099271973731 [0.5893375547169228, 0.5623544473023511, 0.6015551669989474, 0.5141557885584334, 0.540099271973731]
+precision_scores:  0.6504729830168567 [0.7181818181818181, 0.6585365853658537, 0.6687898089171974, 0.5932203389830508, 0.6136363636363636]
+recall scores:  0.3095183931642901 [0.2936802973977695, 0.30111524163568776, 0.3903345724907063, 0.26022304832713755, 0.30223880597014924]
+f1_scores:  0.41797334041601897 [0.41688654353562, 0.413265306122449, 0.4929577464788733, 0.36175710594315247, 0.40499999999999997]
+accuracy:  0.7979970405390602 [0.7980684811237928, 0.7980684811237928, 0.800702370500439, 0.7899824253075571, 0.8031634446397188]
+roc_auc : 0.8033740505580174 [0.8341110114087937, 0.7813100884501987, 0.7946246207751143, 0.7900034650775791, 0.8168210670784011]
+pr_auc:  0.5778615308565713 [0.5625059091161294, 0.5650128812599837, 0.5824983714362604, 0.5430724204498787, 0.5778615308565713]
+precision_scores:  0.6348358868880595 [0.656, 0.6382978723404256, 0.6193181818181818, 0.6056338028169014, 0.6549295774647887]
+recall scores:  0.3422654386062254 [0.3048327137546468, 0.3345724907063197, 0.4052044609665427, 0.31970260223048325, 0.34701492537313433]
+f1_scores:  0.44346114125719127 [0.416243654822335, 0.4390243902439025, 0.48988764044943817, 0.4184914841849148, 0.45365853658536587]
+accuracy:  0.7911475394659083 [0.7822651448639157, 0.7936786654960492, 0.7945566286215979, 0.7847100175746925, 0.8005272407732865]
+roc_auc : 0.7964459509621872 [0.8127846857240525, 0.7843567064051616, 0.7832286459000981, 0.7893318389295048, 0.8125278778521187]
+pr_auc:  0.5730954234993405 [0.5177157800181975, 0.5581799404244324, 0.5680150452856416, 0.5299320407039794, 0.5730954234993405]
+precision_scores:  0.6000842959820613 [0.5777777777777777, 0.6075949367088608, 0.5988700564971752, 0.5821917808219178, 0.6339869281045751]
+recall scores:  0.3437635243855074 [0.2899628252788104, 0.35687732342007433, 0.3940520446096654, 0.3159851301115242, 0.3619402985074627]
+f1_scores:  0.43631396076842427 [0.38613861386138615, 0.4496487119437939, 0.47533632286995514, 0.40963855421686746, 0.46080760095011875]
+tensor([0.9046, 0.9321, 0.9665,  ..., 0.9858, 0.9981, 1.0000],
+       grad_fn=<SigmoidBackward>)
+loss: 0.5073416233062744 accuracy: 0.9542889535932387
+C:\Users\juneli\Anaconda\envs\pytorch\lib\site-packages\xgboost\sklearn.py:1224: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+C:\Users\juneli\Anaconda\envs\pytorch\lib\site-packages\xgboost\sklearn.py:1224: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+C:\Users\juneli\Anaconda\envs\pytorch\lib\site-packages\xgboost\sklearn.py:1224: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+C:\Users\juneli\Anaconda\envs\pytorch\lib\site-packages\xgboost\sklearn.py:1224: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+C:\Users\juneli\Anaconda\envs\pytorch\lib\site-packages\xgboost\sklearn.py:1224: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+accuracy:  0.7693658760883888 [0.7682177348551361, 0.7708516242317822, 0.7690956979806848, 0.773286467486819, 0.7653778558875219]
+roc_auc : 0.7331625874742487 [0.7632696662821006, 0.7226381233175234, 0.7368414305858224, 0.6992740448577821, 0.7437896723280151]
+pr_auc:  0.3952930606967231 [0.465616918686689, 0.48796260334017644, 0.45188235783688163, 0.5118842927926149, 0.3952930606967231]
+precision_scores:  0.5858610495195861 [0.5757575757575758, 0.6818181818181818, 0.5853658536585366, 0.6363636363636364, 0.45]
+recall scores:  0.08852577262386949 [0.07063197026022305, 0.11152416356877323, 0.08921933085501858, 0.10408921933085502, 0.06716417910447761]
+f1_scores:  0.15363133397681328 [0.12582781456953643, 0.19169329073482427, 0.15483870967741936, 0.17891373801916932, 0.11688311688311688]
+accuracy:  0.7995770655664096 [0.8112379280070237, 0.8033362598770851, 0.7919227392449517, 0.7908611599297012, 0.8005272407732865]
+roc_auc : 0.8120175063183162 [0.8576272272785541, 0.788678801863009, 0.7995641584412255, 0.7929851429451448, 0.8212322010636472]
+pr_auc:  0.568268664565029 [0.6072331818434021, 0.5792400007732703, 0.5479427097686693, 0.5397685132291136, 0.568268664565029]
+precision_scores:  0.6684215435550496 [0.7454545454545455, 0.6923076923076923, 0.6126760563380281, 0.6302521008403361, 0.6614173228346457]
+recall scores:  0.30432225489652115 [0.3048327137546468, 0.30111524163568776, 0.32342007434944237, 0.2788104089219331, 0.31343283582089554]
+f1_scores:  0.4175357710690715 [0.43271767810026385, 0.4196891191709845, 0.4233576642335767, 0.3865979381443299, 0.4253164556962026]
+accuracy:  0.80168525716296 [0.8138718173836699, 0.8024582967515365, 0.7945566286215979, 0.7917398945518453, 0.8057996485061512]
+roc_auc : 0.8033289678877662 [0.8453147032431738, 0.7814724607956245, 0.7839465025851385, 0.7899350191007055, 0.8159761537141879]
+pr_auc:  0.5851563797882293 [0.6105883248589562, 0.5775879973122808, 0.5630917930871259, 0.5473983761842851, 0.5851563797882293]
+precision_scores:  0.652574559407183 [0.7209302325581395, 0.6549295774647887, 0.6060606060606061, 0.6142857142857143, 0.6666666666666666]
+recall scores:  0.3467291793819009 [0.34572490706319703, 0.34572490706319703, 0.37174721189591076, 0.31970260223048325, 0.35074626865671643]
+f1_scores:  0.4521833040104391 [0.46733668341708534, 0.4525547445255475, 0.46082949308755755, 0.42053789731051344, 0.4596577017114915]
+accuracy:  0.7944847251389079 [0.8121158911325724, 0.7901668129938543, 0.7796312554872695, 0.7838312829525483, 0.8066783831282952]
+roc_auc : 0.8003300311048378 [0.8297611417339659, 0.7765628338247232, 0.7874716916634619, 0.7814434400947976, 0.8264110482072398]
+pr_auc:  0.5938058467097984 [0.6080141188618973, 0.5515339338837804, 0.53709454743733, 0.5270719539584061, 0.5938058467097984]
+precision_scores:  0.6050015971013593 [0.6646706586826348, 0.5914634146341463, 0.5483870967741935, 0.5793103448275863, 0.6411764705882353]
+recall scores:  0.37428008655606726 [0.41263940520446096, 0.36059479553903345, 0.379182156133829, 0.31226765799256506, 0.40671641791044777]
+f1_scores:  0.4618153816411706 [0.5091743119266054, 0.4480369515011547, 0.44835164835164837, 0.4057971014492754, 0.497716894977169]
+tensor([0.9065, 0.9337, 0.9676,  ..., 0.9863, 0.9982, 1.0000],
+       grad_fn=<SigmoidBackward>)
+loss: 0.5072359442710876 accuracy: 0.9549073668478961
+C:\Users\juneli\Anaconda\envs\pytorch\lib\site-packages\xgboost\sklearn.py:1224: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+C:\Users\juneli\Anaconda\envs\pytorch\lib\site-packages\xgboost\sklearn.py:1224: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+C:\Users\juneli\Anaconda\envs\pytorch\lib\site-packages\xgboost\sklearn.py:1224: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+C:\Users\juneli\Anaconda\envs\pytorch\lib\site-packages\xgboost\sklearn.py:1224: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+C:\Users\juneli\Anaconda\envs\pytorch\lib\site-packages\xgboost\sklearn.py:1224: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+accuracy:  0.769190283463279 [0.7673397717295873, 0.7708516242317822, 0.7690956979806848, 0.773286467486819, 0.7653778558875219]
+roc_auc : 0.7386490254302073 [0.7614237490919967, 0.727603298722386, 0.7425330085886425, 0.7129931853474275, 0.7486918854005834]
+pr_auc:  0.395171377411343 [0.4447835853533557, 0.48796260334017644, 0.45188235783688163, 0.5118842927926149, 0.395171377411343]
+precision_scores:  0.5906208216673333 [0.6, 0.6744186046511628, 0.5945945945945946, 0.6590909090909091, 0.425]
+recall scores:  0.08554902069577762 [0.06691449814126393, 0.10780669144981413, 0.08178438661710037, 0.10780669144981413, 0.06343283582089553]
+f1_scores:  0.14915654962597755 [0.12040133779264213, 0.18589743589743588, 0.1437908496732026, 0.1853035143769968, 0.11038961038961038]
+accuracy:  0.7985215039246031 [0.8121158911325724, 0.8042142230026339, 0.7963125548726954, 0.7829525483304042, 0.79701230228471]
+roc_auc : 0.809298788532703 [0.8510981498098534, 0.7941161389565441, 0.7984425073708499, 0.7845106754334555, 0.8183264710928119]
+pr_auc:  0.5585351796588762 [0.6126187810750998, 0.581607713191507, 0.5616286241512085, 0.5154663237768378, 0.5585351796588762]
+precision_scores:  0.6611082741983765 [0.7619047619047619, 0.6885245901639344, 0.6258503401360545, 0.5901639344262295, 0.6390977443609023]
+recall scores:  0.307299006824613 [0.29739776951672864, 0.31226765799256506, 0.3420074349442379, 0.26765799256505574, 0.31716417910447764]
+f1_scores:  0.4184018585518034 [0.42780748663101603, 0.4296675191815857, 0.44230769230769235, 0.3682864450127877, 0.4239401496259352]
+accuracy:  0.7969413245979345 [0.8068481123792801, 0.8077260755048288, 0.7892888498683055, 0.7873462214411248, 0.7934973637961336]
+roc_auc : 0.7961437658309072 [0.8301499807716959, 0.7746912788958681, 0.7879331709609879, 0.781837004461822, 0.8061073940641619]
+pr_auc:  0.5509575281628898 [0.5894811290097464, 0.5920177912436171, 0.5438771901228835, 0.5331586752993904, 0.5509575281628898]
+precision_scores:  0.6393264367170609 [0.6929133858267716, 0.6923076923076923, 0.5960264900662252, 0.6, 0.6153846153846154]
+recall scores:  0.32515119569439055 [0.3271375464684015, 0.3345724907063197, 0.3345724907063197, 0.30111524163568776, 0.3283582089552239]
+f1_scores:  0.4306715271713769 [0.4444444444444444, 0.4511278195488722, 0.42857142857142855, 0.400990099009901, 0.4282238442822384]
+accuracy:  0.7997506523003713 [0.8129938542581212, 0.8077260755048288, 0.7980684811237928, 0.7855887521968365, 0.7943760984182777]
+roc_auc : 0.8032762030108642 [0.8372302696235526, 0.7888988591206256, 0.7937230269623552, 0.7792531688348356, 0.8172756905129525]
+pr_auc:  0.5632334811006479 [0.6092590336135892, 0.5933948233901561, 0.5712971954737733, 0.5344849850150641, 0.5632334811006479]
+precision_scores:  0.6283839063267279 [0.6728395061728395, 0.6666666666666666, 0.6196319018404908, 0.5827814569536424, 0.6]
+recall scores:  0.3720301836542196 [0.4052044609665427, 0.37174721189591076, 0.3754646840148699, 0.3271375464684015, 0.3805970149253731]
+f1_scores:  0.4671042138617231 [0.505800464037123, 0.477326968973747, 0.46759259259259256, 0.419047619047619, 0.4657534246575342]
+tensor([0.9083, 0.9352, 0.9686,  ..., 0.9868, 0.9983, 1.0000],
+       grad_fn=<SigmoidBackward>)
+loss: 0.5071328282356262 accuracy: 0.9556030817593857
+C:\Users\juneli\Anaconda\envs\pytorch\lib\site-packages\xgboost\sklearn.py:1224: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+C:\Users\juneli\Anaconda\envs\pytorch\lib\site-packages\xgboost\sklearn.py:1224: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+C:\Users\juneli\Anaconda\envs\pytorch\lib\site-packages\xgboost\sklearn.py:1224: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+C:\Users\juneli\Anaconda\envs\pytorch\lib\site-packages\xgboost\sklearn.py:1224: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+C:\Users\juneli\Anaconda\envs\pytorch\lib\site-packages\xgboost\sklearn.py:1224: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+accuracy:  0.7695413144141796 [0.7682177348551361, 0.7708516242317822, 0.7708516242317822, 0.773286467486819, 0.7644991212653779]
+roc_auc : 0.7339231811398831 [0.7636884160150408, 0.7224693415374098, 0.7457355894543435, 0.6998472799141005, 0.7378752787785212]
+pr_auc:  0.3820134826745009 [0.465616918686689, 0.48796260334017644, 0.4802914487459725, 0.5118842927926149, 0.3820134826745009]
+precision_scores:  0.5913693019473797 [0.6129032258064516, 0.6590909090909091, 0.6052631578947368, 0.6585365853658537, 0.42105263157894735]
+recall scores:  0.08480275203906121 [0.07063197026022305, 0.10780669144981413, 0.08550185873605948, 0.10037174721189591, 0.05970149253731343]
+f1_scores:  0.14811520527598832 [0.12666666666666668, 0.1853035143769968, 0.14983713355048858, 0.17419354838709677, 0.10457516339869281]
+accuracy:  0.80431852934233 [0.8077260755048288, 0.810359964881475, 0.8094820017559262, 0.7917398945518453, 0.8022847100175747]
+roc_auc : 0.8115080253128053 [0.8478293381190446, 0.794385335213434, 0.8026086399179592, 0.7927584156467503, 0.8199583976668381]
+pr_auc:  0.5748822629591419 [0.5953027637590826, 0.5999968778810497, 0.599830017037054, 0.5427284982240196, 0.5748822629591419]
+precision_scores:  0.6766417352376027 [0.7272727272727273, 0.7054263565891473, 0.6625, 0.6333333333333333, 0.6546762589928058]
+recall scores:  0.330363979359707 [0.29739776951672864, 0.3382899628252788, 0.3940520446096654, 0.2825278810408922, 0.33955223880597013]
+f1_scores:  0.4423084926367188 [0.42216358839050133, 0.457286432160804, 0.49417249417249415, 0.3907455012853471, 0.4471744471744472]
+accuracy:  0.8009845839550309 [0.8015803336259877, 0.8042142230026339, 0.7919227392449517, 0.7978910369068541, 0.8093145869947276]
+roc_auc : 0.7995162261560316 [0.8350937913942658, 0.7816305601845918, 0.7825236080844336, 0.7897467926643024, 0.8085863784525648]
+pr_auc:  0.5956892619860419 [0.5743310983744425, 0.581684840612159, 0.5585400680829398, 0.5642621397499218, 0.5956892619860419]
+precision_scores:  0.6476997797702805 [0.656934306569343, 0.6716417910447762, 0.5941176470588235, 0.6423357664233577, 0.673469387755102]
+recall scores:  0.34823003939410757 [0.3345724907063197, 0.3345724907063197, 0.3754646840148699, 0.3271375464684015, 0.3694029850746269]
+f1_scores:  0.4521485045408988 [0.4433497536945813, 0.4466501240694789, 0.4601366742596811, 0.4334975369458128, 0.4771084337349397]
+accuracy:  0.8018616212846652 [0.8068481123792801, 0.7998244073748902, 0.800702370500439, 0.804920913884007, 0.79701230228471]
+roc_auc : 0.8085195506112692 [0.833055591163526, 0.7890569585095928, 0.7920950305516387, 0.8178823670329952, 0.8105078057985933]
+pr_auc:  0.5650191568992822 [0.5908565006607889, 0.5823086237747235, 0.5840121228539132, 0.5887855229723902, 0.5650191568992822]
+precision_scores:  0.6316305986400019 [0.6644295302013423, 0.6132596685082873, 0.6166666666666667, 0.6459627329192547, 0.6178343949044586]
+recall scores:  0.3883731898130167 [0.3680297397769517, 0.41263940520446096, 0.41263940520446096, 0.38661710037174724, 0.3619402985074627]
+f1_scores:  0.48032822671939784 [0.4736842105263158, 0.49333333333333335, 0.49443207126948774, 0.4837209302325582, 0.4564705882352941]
+tensor([0.9101, 0.9367, 0.9696,  ..., 0.9873, 0.9984, 1.0000],
+       grad_fn=<SigmoidBackward>)
+loss: 0.5070321559906006 accuracy: 0.9562472622329872
+C:\Users\juneli\Anaconda\envs\pytorch\lib\site-packages\xgboost\sklearn.py:1224: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+C:\Users\juneli\Anaconda\envs\pytorch\lib\site-packages\xgboost\sklearn.py:1224: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+C:\Users\juneli\Anaconda\envs\pytorch\lib\site-packages\xgboost\sklearn.py:1224: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+C:\Users\juneli\Anaconda\envs\pytorch\lib\site-packages\xgboost\sklearn.py:1224: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+C:\Users\juneli\Anaconda\envs\pytorch\lib\site-packages\xgboost\sklearn.py:1224: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
+  warnings.warn(label_encoder_deprecation_msg, UserWarning)
+accuracy:  0.7690145365388503 [0.7664618086040387, 0.7708516242317822, 0.7699736611062336, 0.773286467486819, 0.7644991212653779]
+roc_auc : 0.7331624561584287 [0.7616502157843013, 0.7249241550228602, 0.7389479981198992, 0.7005060724415106, 0.7397838394235717]
+pr_auc:  0.3805871783437819 [0.4264012324121792, 0.48796260334017644, 0.46546931435862077, 0.5118842927926149, 0.3805871783437819]
+precision_scores:  0.5832036956607574 [0.5806451612903226, 0.6578947368421053, 0.6052631578947368, 0.6511627906976745, 0.42105263157894735]
+recall scores:  0.08182877434389392 [0.06691449814126393, 0.09293680297397769, 0.08550185873605948, 0.10408921933085502, 0.05970149253731343]
+f1_scores:  0.1433531851895523 [0.12, 0.16286644951140067, 0.14983713355048858, 0.1794871794871795, 0.10457516339869281]
+accuracy:  0.7983472999933652 [0.810359964881475, 0.7963125548726954, 0.797190517998244, 0.7934973637961336, 0.7943760984182777]
+roc_auc : 0.8084522091774575 [0.85137802845789, 0.7743793530743921, 0.8029932059992309, 0.7926814139227673, 0.8208290444330073]
+pr_auc:  0.5520068147076949 [0.6038752784854987, 0.5576310899694238, 0.5673485633418934, 0.5480957298624377, 0.5520068147076949]
+precision_scores:  0.65393179168323 [0.7387387387387387, 0.6434108527131783, 0.620253164556962, 0.6440677966101694, 0.6231884057971014]
+recall scores:  0.3162237141430394 [0.3048327137546468, 0.30855018587360594, 0.3643122676579926, 0.2825278810408922, 0.3208955223880597]
+f1_scores:  0.4248181892049807 [0.43157894736842106, 0.41708542713567837, 0.45901639344262296, 0.39276485788113696, 0.4236453201970443]
+accuracy:  0.795009188524451 [0.800702370500439, 0.8094820017559262, 0.7875329236172081, 0.7864674868189807, 0.7908611599297012]
+roc_auc : 0.7979215512429046 [0.8387514421228048, 0.7745588172456523, 0.7808614280220485, 0.7888954958269344, 0.8065405729970836]
+pr_auc:  0.5432295132175948 [0.5706030829676733, 0.5973515223413551, 0.5520302507536423, 0.5295623620449997, 0.5432295132175948]
+precision_scores:  0.6263982151948262 [0.6693548387096774, 0.6830985915492958, 0.5754189944134078, 0.5984848484848485, 0.6056338028169014]
+recall scores:  0.3333240858902513 [0.30855018587360594, 0.36059479553903345, 0.3828996282527881, 0.2936802973977695, 0.3208955223880597]
+f1_scores:  0.4335519817026904 [0.4223918575063613, 0.4720194647201947, 0.45982142857142855, 0.3940149625935162, 0.41951219512195115]
+accuracy:  0.7990501333917613 [0.820017559262511, 0.7919227392449517, 0.7928007023705005, 0.7961335676625659, 0.7943760984182777]
+roc_auc : 0.8054842762647688 [0.837555014314404, 0.7809297953253856, 0.8070076485920608, 0.790769204443855, 0.8111597186481386]
+pr_auc:  0.5640783900825297 [0.6270985440172852, 0.5611950534981891, 0.5674338751217641, 0.560116462166083, 0.5640783900825297]
+precision_scores:  0.6220282326318942 [0.7, 0.5909090909090909, 0.5891891891891892, 0.6312056737588653, 0.5988372093023255]
+recall scores:  0.3846723630916052 [0.4163568773234201, 0.38661710037174724, 0.4052044609665427, 0.3308550185873606, 0.3843283582089552]
+f1_scores:  0.4744129247161156 [0.5221445221445221, 0.46741573033707867, 0.48017621145374445, 0.4341463414634147, 0.4681818181818182]
+
+Process finished with exit code 0
