@@ -1,6 +1,13 @@
 GAECDS:<br>
 ==========
 Graph Auto Encoder and Convolutional neural network for Drug Synergy prediction<br>
+
+Title: Predicting Drug Synergy and Discovering New Drug Combinations Based on a Graph Autoencoder and Convolutional Neural Network
+
+Interdisciplinary Sciences Computational Life Sciences 15(21)
+
+DOI: 10.1007/s12539-023-00558-y
+
 <br>
 Code:<br>
 ----------
